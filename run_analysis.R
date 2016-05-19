@@ -237,4 +237,4 @@ row.names(tidy_df) <- 1:nrow(tidy_df)
 
 ## Save the tidy data set
 
-write.table(tidy_df,"tidy_data_set.txt")
+write.table(tidy_df,"tidy_data_set.txt", row.names = FALSE)
